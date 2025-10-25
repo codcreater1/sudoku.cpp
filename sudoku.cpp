@@ -14,6 +14,9 @@ void printBoard(int board[N][N]) {
     }
 }
 
+
+
+
 bool isValid(int board[N][N], int row, int col, int num) {
     for (int x = 0; x < N; x++) {
         if (board[row][x] == num) return false;
@@ -70,3 +73,4 @@ int main() {
 
     return 0;
 }
+
